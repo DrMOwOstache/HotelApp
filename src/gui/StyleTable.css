@@ -1,0 +1,21 @@
+.chart {
+    -fx-background: #8ce3c6
+}
+
+.chart-alternative-row-fill {
+    -fx-fill: transparent;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+
+.chart-symbol { /* solid circle */
+    -fx-background-color: #36759c;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.default-color5.chart-symbol { /* hollow circle */
+    -fx-background-color: #bf1d4b;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
